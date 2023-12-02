@@ -1,0 +1,25 @@
+:root {
+  --white: #ffffff;
+  --brown: rgb(102, 42, 42);
+  --black: #000000;
+  --yellow:#ecdfbb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:var(--yellow);
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
